@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Here are a list of Doctors :)<h1>
+
+<table>
+   
+        
+        <tbody>
+        <% @doctors.each do |doctor| %>
+            <tr>
+            <td><%= doctor.name %></td>
+            <td><%= doctor.occupation %></td>
+            <td><%= doctor.number %></td>
+            <td><%= doctor.location %></td>
+            </tr>
+            <% end %>
+            </tbody>
+
+         </table>
+
+         <br>
+
+         <%= link_to 'back', diaries_path %>
