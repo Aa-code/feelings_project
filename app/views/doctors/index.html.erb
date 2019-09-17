@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h4> </h4>
+<h4>Reach out to a Doctor </h4>
 
-<table>
+<table class="u-center-abs first">
    
         
         <tbody>
@@ -20,5 +20,11 @@
 
          <br>
 
-         <%= link_to 'back', diaries_path %>
-          <%= link_to 'Home', welcome_index_path%>
+         <ul>
+<li> <%= link_to 'Home', welcome_index_path%>
+  <li><%= link_to 'Journal', diaries_path %></li>
+  <li> <%= link_to 'New Diary', new_diary_path %>
+  <li> <%= link_to 'Find a Doctor', doctors_path %>
+ 
+</ul>
+         
