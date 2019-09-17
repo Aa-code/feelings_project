@@ -13,7 +13,7 @@ Users are about to use Full Crud, to add delete or edit thier journal entry
 # Deployment
 Heroku with rails
 
-
-<img src="Screen Shot 2019-09-17 at 3.43.34 PM ">
+# Live app
+https://bumble3.herokuapp.com/
 
 
